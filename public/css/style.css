@@ -1,0 +1,275 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, 
+p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, 
+font, img, ins, kbd, q, s, samp, small, strike, strong, tt, var, b, u, i, 
+center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, 
+tbody, tfoot, thead, tr, th, td {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent
+}
+
+body {
+    margin: 0px;
+    /*background-color: #cbcbcb;*/
+    background-color:#ffa873;
+    background-color: #eeeeee;
+}
+
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans';
+    font-style: condensed;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-family: 'Open Sans';
+    font-style: condensed;
+}
+
+/*  TOP MENU    */
+
+#header-wrapper {
+    min-width: 960px;
+    height: 75px;
+    background-color: #595959;
+    background-color: #ffa873;
+}
+
+#header {
+    width: 1040px;
+    height: 75px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#logo {
+    float: left;
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+}
+
+#logo a {
+    text-decoration: none;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 30px;
+    font-family: 'Open Sans';
+    font-style: condensed;
+    font-family: 'Shadows Into Light', cursive;
+    color: #eeeeee;
+}
+
+#header-menu {
+    float: right;
+    position: absolute;
+    bottom: 23px;
+    right: 0;
+}
+
+#header-menu ul li {
+    position: relative;
+    display: inline;
+    float: left;
+    clear: none;
+    margin-left: 20px;
+    padding-left: 10px;
+}
+
+#contact-menu ul li {
+    position: relative;
+    display: inline;
+    float: left;
+    clear: none;
+    margin-right: 20px;
+    padding-right: 10px;
+}
+
+#header-menu a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #0f0f0f;
+    color: #c0c0c0;
+    color: #eeeeee;
+}
+
+#header-menu a:hover {
+    color: #5d8ba6;
+}
+
+/*      BEGIN Personal Information  */
+
+#center {
+    width: 1040px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    /*
+    background-color: #cbcbcb;*/
+    background-color: #ffa873;
+    background-color: #eeeeee;
+}
+
+#personal-wrapper {
+    width: 1040px;
+    height: 240px;
+    margin: 0 auto;
+    position: relative;
+    background-color: #ffa873;
+    background-color: #eeeeee;
+}
+
+#personal {
+    width: 1040px;
+    height: 240px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#photo {
+    float: left;
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+}
+
+#photo img {
+    width: 153px;
+    height: 170px;
+}
+
+#selfie {
+    border-radius: 5em;
+    -webkit-border-radius: 5em;
+    -moz-border-radius: 5em;
+}
+
+#currently-wrapper {
+    margin-bottom: 30px;
+}
+
+#currently-wrapper hr {
+    -webkit-margin-start: 1em;
+    -webkit-margin-end: 1em;
+    -webkit-margin-after: 2em;
+}
+
+#current-information {
+    margin-left: 1em;
+}
+
+#current-information p {
+    text-align: right;
+    margin-right: 1em;
+}
+
+#end-current {
+    margin-top: 2em;
+    margin-bottom: 1em;
+    border-style: none;
+}
+
+#information { 
+    float: left;
+    position: absolute;
+    left: 220px;
+    bottom: 80px;
+}
+
+#information a {
+    font-size: 14px;
+    text-decoration: none;
+}
+
+#personal-title {
+    left: 0px;
+    font-family: 'Open Sans';
+    letter-spacing: -2px;
+    font-size: 35px;
+}
+
+/*      Begin Section Content       */
+
+.section {
+    margin: 0 auto;
+    margin-left: 1em;
+    margin-bottom: 50px;
+}
+
+.section hr {
+    -webkit-margin-end: 1em;
+}
+
+.section-heading{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.section-title {
+    font-size: 30px;
+}
+
+.section-content {
+    overflow: hidden;
+    height: auto;
+}
+
+.project-name {
+    color: #4d85e3;
+}
+
+.project-timespan {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.project-left {
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+.project-left-text {
+    float: left;
+    width: 700px;
+}
+
+.project-left-media {
+    float: right;
+    width: 300px;
+}
+
+.project-left-media img {
+    width: 280px;
+    height: 200px;
+    border: 1px solid;
+}
+
+.project-right {
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+.project-right-text {
+    float: right;
+    width: 700px;
+}
+
+.project-right-media {
+    float: left;
+    width: 220px;
+}
+
+.project-right-media img {
+    width: 280px;
+    height: 200px;
+    border: 1px solid;
+}
+
+/*      Begin Footer        */
+#footer {
+    height: 200px;
+}
